@@ -1,3 +1,64 @@
-body{
+header{
+	border: solid whitesmoke 5px;
+    background-image: linear-gradient(to bottom, #95484b, #af595c, #6f3032);
+	color: whitesmoke;
+}	
+#classlogo {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 30%;
+	padding: 30px;
+}
+a{
+	border: solid whitesmoke 5px;
+	background-color: #95484b;
+	color: white;
+	text-decoration: none;
+	padding: 0.2em;
+}
 
+nav {
+	text-align: center;
+	padding-top: -15px;
+}
+
+body{
+background-image: url(pattern.png);
+font-family: Helvetica, sans-serif;
+padding: 1em;
+margin-left: auto;
+margin-right: auto;
+}
+
+#wrapper {
+	background-color: whitesmoke;
+	width: 77%;
+	padding: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+dt{
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	color: #95484b;
+}
+
+#classhero {
+	background-image: url(cohort.png);
+	background-repeat: no-repeat;	
+	height: 829px;
+	width: 100%
+	margin-left: auto;
+	margin-right: auto;
+	color: red;
+}
+
+footer {
+	text-align: center;
 }
